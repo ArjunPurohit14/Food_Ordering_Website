@@ -1,0 +1,32 @@
+.home-container {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .category {
+    flex: 1 0 21%; /* Adjust the flex basis to fit the desired number of items per row */
+    max-width: 144px;
+  }
+  
+  .category-image-container {
+    height: 180px;
+    width: 144px;
+    overflow: hidden;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

@@ -1,0 +1,16 @@
+.card-container {
+  perspective: 1000px;
+}
+
+.card-body {
+  transition: transform 0.2s;
+  transform-style: preserve-3d;
+}
+
+.card-container:hover .card-body {
+  transform: rotateY(10deg) rotateX(10deg);
+}
+
+.card-item {
+  transition: transform 0.2s;
+}

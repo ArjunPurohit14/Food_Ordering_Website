@@ -1,0 +1,56 @@
+/* theme.css */
+body {
+  background-color: #bc4f4f;
+  color: #5d4037;
+}
+
+.navbar {
+  background-color: #ffcc80 !important;
+}
+
+.navbar-brand, .nav-link {
+  color: #5d4037 !important;
+}
+
+.btn-outline-light {
+  color: #5d4037 !important;
+  border-color: #5d4037 !important;
+}
+
+.search-bar-container {
+  margin: 20px 0;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #5d4037;
+  border-radius: 5px;
+}
+
+.card {
+  background-color: #ffe0b2;
+  border: 1px solid #5d4037;
+  border-radius: 10px;
+}
+
+.cart-item-card {
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.cart-item-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.cart-item-card .card-body {
+  flex-grow: 1;
+}
+
+.cart-item-card .btn {
+  margin-left: auto;
+}

@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Additional custom styles if needed */
+
+#carousel{
+    max-height: 500px;
+}
+
+/* Add this in your global CSS file */
+
